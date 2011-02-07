@@ -13,6 +13,11 @@ namespace Xceed.Hack
 
         public RealizingWrapper(CollectionView collection, TimeSpan timeout)
         {
+            if (collection == null)
+            {
+                throw new ArgumentNullException("collection");
+            }
+
             _collection = collection;
             _timeout = timeout;
         }

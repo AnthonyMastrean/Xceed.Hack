@@ -50,8 +50,12 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmptyCollection.cs" />
+    <Compile Include="NeverRealizedCollection.cs" />
+    <Compile Include="NullCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DelayedRealization.cs" />
+    <Compile Include="DelayRealizedCollection.cs" />
+    <Compile Include="TypedCollection.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xceed.Hack\Xceed.Hack.csproj">

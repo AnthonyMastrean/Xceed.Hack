@@ -7,14 +7,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Xceed.Hack.Test
 {
     [TestClass]
-    public class DelayedRealization
+    public class DelayRealizedCollection
     {
         private readonly List<object> _list = new List<object> { XceedReflection.Empty };
 
         private readonly CollectionView _collection;
         private readonly Thread _initializer;
 
-        public DelayedRealization()
+        public DelayRealizedCollection()
         {
             _collection = new CollectionView(_list);
             _initializer = new Thread(x =>
