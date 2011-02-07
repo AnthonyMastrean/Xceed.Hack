@@ -1,0 +1,7 @@
+bin
+obj
+TestResults
+_ReSharper*
+*.user
+*.suo
+lib/Xceed.Wpf.DataGrid.dll
