@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Windows.Data;
 using Xceed.Hack.Diagnostics;
-using Xceed.Hack.Dispatcher;
+using Xceed.Hack.Magic;
 
 namespace Xceed.Hack
 {

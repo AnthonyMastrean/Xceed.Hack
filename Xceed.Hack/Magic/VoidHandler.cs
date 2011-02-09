@@ -1,4 +1,4 @@
-﻿namespace Xceed.Hack.Dispatcher
+﻿namespace Xceed.Hack.Magic
 {
     /// <summary>
     /// No-op delegate.

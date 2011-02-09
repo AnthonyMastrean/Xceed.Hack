@@ -40,8 +40,8 @@
     <Compile Include="CollectionViewExtensions.cs" />
     <Compile Include="RealizingWrapper.cs" />
     <Compile Include="Diagnostics\LazyTimeout.cs" />
-    <Compile Include="Dispatcher\DispatcherHelper.cs" />
-    <Compile Include="Dispatcher\VoidHandler.cs" />
+    <Compile Include="Magic\DispatcherHelper.cs" />
+    <Compile Include="Magic\VoidHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VirtualItemNotRealizedException.cs" />
     <Compile Include="XceedReflection.cs" />

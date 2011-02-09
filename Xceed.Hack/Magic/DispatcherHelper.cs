@@ -1,6 +1,6 @@
 ﻿using System.Windows.Threading;
 
-namespace Xceed.Hack.Dispatcher
+namespace Xceed.Hack.Magic
 {
     /// <summary>
     /// Synchronously add a low-priority no-op to the Dispatcher's queue. The call will not return
