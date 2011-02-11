@@ -10,7 +10,7 @@ In this example, your view model exposes a CollectionView property that's backed
         }
     }
 
-Instead of the usual GetItemAt(int), you'll call the extension method GetRealItemAt(int, timespan). Inside there is a loop, pumping the WPF dispatcher, and checking to see if the item at the index has been realized.
+Instead of the usual GetItemAt(int), you'll call the extension method GetRealItemAt(int, TimeSpan). Inside there is a loop, pumping the WPF dispatcher, and checking to see if the item at the index has been realized.
 
     [TestClass]
     public class ViewModelTests
