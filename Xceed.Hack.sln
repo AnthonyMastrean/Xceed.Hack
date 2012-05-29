@@ -1,12 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD27AB8B-BB3C-42DF-A742-B618B240D3FB}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		Xceed.Hack.vsmdi = Xceed.Hack.vsmdi
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Hack", "source\Xceed.Hack\Xceed.Hack.csproj", "{59746FF9-0751-4B6B-894D-CDB7A4ABCAC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xceed.Hack.Test", "source\Xceed.Hack.Test\Xceed.Hack.Test.csproj", "{5567B818-B465-46E6-BC36-3D11B2B827A9}"
