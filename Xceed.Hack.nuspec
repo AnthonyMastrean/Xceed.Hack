@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>1.0.0</version>
+    <version>1.0.0.1</version>
     <authors>Anthony Mastrean</authors>
     <owners>Anthony Mastrean</owners>
     <projectUrl>https://github.com/AnthonyMastrean/Xceed.Hack</projectUrl>
     <id>Xceed.Hack</id>
     <title>Xceed WPF DataGrid Hack</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>xceed wpf testing</tags>
     <summary>Test virtualizing collections by pumping the WPF dispatcher!</summary>
     <description>Do you use the Xceed WPF DataGrid and want to run tests against a virtualizing collection? You've probably noticed that the virtual items don't realize under test. The realization is tied to some voodoo inside the WPF implementation. I've found that by pumping the WPF dispatcher you can make the virtual item realize.</description>
   </metadata>
