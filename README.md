@@ -2,22 +2,26 @@ Do you use the Xceed WPF DataGrid and want to run tests against a virtualizing c
 
 In this example, your view model exposes a `CollectionView` property that's backed by a `DataGridVirtualizingCollectionView`. There are other ways to express the same idea, but this library works on the `CollectionView` type.
 
-    public class ViewModel
+```csharp
+public class ViewModel
+{
+    public CollectionView Parts
     {
-        public CollectionView Parts
-        {
-            get { return _partsSource; }
-        }
+        get { return _partsSource; }
     }
+}
+```
 
 Instead of the usual `GetItemAt(int)`, you'll call the extension method `GetRealItemAt(int, TimeSpan)`. Inside is a loop pumping the WPF dispatcher and checking to see if the item at the index has been realized.
 
-    [TestClass]
-    public class ViewModelTests
+```csharp
+[TestClass]
+public class ViewModelTests
+{
+    [TestMethod]
+    public void Test()
     {
-        [TestMethod]
-        public void Test()
-        {
-            var part = vm.Parts.GetRealItemAt<Part>(3, TimeSpan.FromSeconds(1));
-        }
+        var part = vm.Parts.GetRealItemAt<Part>(3, TimeSpan.FromSeconds(1));
     }
+}
+```
